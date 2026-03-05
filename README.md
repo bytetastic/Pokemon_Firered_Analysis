@@ -1,7 +1,17 @@
-# 🎮 Pokémon Feuerrot – Data Science Analyse
+# 🎮 Feuerrot – Data Science Analyse
 
 Dieses Projekt analysiert die ROM-Daten von **Pokémon Feuerrot (BPRD – Deutsche Version)** mit einem vollständigen Data-Science-Workflow:
 Extraktion → Bereinigung → Analyse → Visualisierung
+
+## ⚖️ Rechtliches
+
+Die in diesem Projekt verwendete ROM-Datei wurde vom Originalspielmodul
+selbst ausgelesen (Sicherungskopie für den privaten Gebrauch).
+
+- Die ROM-Datei ist **nicht** Teil dieses Repositories
+- Es werden ausschließlich **Datenwerte** (Zahlen & Text) extrahiert
+- Keine Weitergabe von geschütztem Spielcode, Grafiken oder Musik
+- Nutzung ausschließlich zu **privaten Lernzwecken**
 
 > Privates Projekt im Bereich **Data Science / Analyse**
 
@@ -34,29 +44,6 @@ Pokemon_Firered_Analysis/
 
 ---
 
-## ⚙️ Setup
-
-### 1. Conda-Umgebung erstellen
-
-```bash
-conda create -n pokemon-analysis python=3.11
-conda activate pokemon-analysis
-```
-
-### 2. Pakete installieren
-
-```bash
-pip install -r requirements.txt
-```
-
-### 3. Jupyter starten
-
-```bash
-jupyter notebook
-```
-
----
-
 ## 📦 Verwendete Bibliotheken
 
 | Bibliothek | Zweck |
@@ -79,15 +66,15 @@ jupyter notebook
 ### Phase 1 – Extraktion 📦
 **Ziel:** Rohdaten aus der ROM in nutzbare Formate überführen
 
-| Schritt | Aufgabe                                                    | Tool | Status |
-|---------|------------------------------------------------------------|---|---|
-| 1.1     | Projektumgebung einrichten (Python, Jupyter, venv)         | `pip`, `conda` | ✅ Fertig |
-| 1.2     | ROM-Struktur verstehen (Hex-Offsets, Datenblöcke)          | Dokumentation / PokeMap | ✅ Fertig |
-| 1.3a    | Pokémon-Namen extrahieren                                  | `Python struct` / `pokemontools` | ✅ Fertig |
-| 1.3b    | Pokémon-Basiswerte extrahieren (HP, ATK, DEF, …)           | `Python struct` / `pokemontools` | ⏳ Offen |
-| 1.4     | Move-Daten extrahieren (Stärke, Genauigkeit, Typ)          | `Python struct` | ⏳ Offen |
-| 1.5     | Encounter-Tabellen extrahieren (wo, welches Pokémon, wie oft) | `Python struct` | ⏳ Offen |
-| 1.6     | Rohdaten als CSV speichern                                 | `pandas` | ⏳ Offen |
+| Schritt | Aufgabe                                                    | Tool | Status               |
+|---------|------------------------------------------------------------|---|----------------------|
+| 1.1     | Projektumgebung einrichten (Python, Jupyter, venv)         | `pip`, `conda` | ✅ Fertig             |
+| 1.2     | ROM-Struktur verstehen (Hex-Offsets, Datenblöcke)          | Dokumentation / PokeMap | ✅ Fertig             |
+| 1.3a    | Pokémon-Namen extrahieren                                  | `Python struct` / `pokemontools` | ✅ Fertig             |
+| 1.3b    | Pokémon-Basiswerte extrahieren (HP, ATK, DEF, …)           | `Python struct` / `pokemontools` | 👨‍💻 In Bearbeitung |
+| 1.4     | Move-Daten extrahieren (Stärke, Genauigkeit, Typ)          | `Python struct` | ⏳ Offen              |
+| 1.5     | Encounter-Tabellen extrahieren (wo, welches Pokémon, wie oft) | `Python struct` | ⏳ Offen              |
+| 1.6     | Rohdaten als CSV speichern                                 | `pandas` | ⏳ Offen              |
 
 ### Phase 2 – Bereinigung 🧹
 **Ziel:** Daten konsistent, vollständig und analysierbar machen
@@ -124,15 +111,12 @@ jupyter notebook
 | 4.5 | Encounter-Karte pro Route | `plotly` | ⏳ Offen |
 | 4.6 | Interaktives Dashboard (optional) | `streamlit` | ⏳ Offen |
 
-### Phase 5 – Präsentation 🎤
+### Phase 5 – Präsentation 👨‍💻
 **Ziel:** Projekt dokumentieren und vorstellen
 
-| Schritt | Aufgabe | Status |
-|---|---|---|
-| 5.1 | Jupyter Notebook aufräumen & kommentieren | ⏳ Offen |
-| 5.2 | README.md schreiben | ⏳ Offen |
-| 5.3 | Kernaussagen formulieren: „Was habe ich herausgefunden?" | ⏳ Offen |
-| 5.4 | Präsentation erstellen (optional: Streamlit-App als Live-Demo) | ⏳ Offen |
+| Schritt | Aufgabe                                  | Status |
+|---|------------------------------------------|---|
+| 5.1 | Kernaussagen formulieren: „Was wurde herausgefunden?" | ⏳ Offen |
 
 ---
 
@@ -140,7 +124,7 @@ jupyter notebook
 
 ```mermaid
 gantt
-    title Pokémon Feuerrot – Projektzeitplan
+    title Feuerrot – Projektzeitplan
     dateFormat  YYYY-MM-DD
     section Phase 1 📦 Extraktion
     Phase 1 – Extraktion     :done,    p1, 2026-03-05, 5d
@@ -154,7 +138,7 @@ gantt
     section Phase 4 📊 Visualisierung
     Phase 4 – Visualisierung :         p4, 2026-03-20, 5d
 
-    section Phase 5 🎤 Präsentation
+    section Phase 5 👨‍💻 Präsentation
     Phase 5 – Präsentation   :         p5, 2026-03-25, 4d
 ```
 
