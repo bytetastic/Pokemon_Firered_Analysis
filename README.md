@@ -73,7 +73,8 @@ jupyter notebook
 
 ## 🗺️ Ablaufplan & Fortschritt
 
-### Die folgende Roadmap wurde mit Claude.ai erstellt, spontane Anpassungen sind möglich.
+### Die folgende Roadmap wurde mithilfe von Claude.ai erstellt, spontane Anpassungen sind möglich.
+### Erledigte Schritte werden parallel zu Code aktualisiert.
 
 ### Phase 1 – Extraktion 📦
 **Ziel:** Rohdaten aus der ROM in nutzbare Formate überführen
