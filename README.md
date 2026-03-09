@@ -74,9 +74,8 @@ Pokemon_Firered_Analysis/
 | 1.3b    | Pokémon-Basiswerte extrahieren (HP, ATK, DEF, …)              | ✅ Fertig  |
 | 1.3c    | Pokémon-Typen extrahieren                                     | ‍✅ Fertig |
 | 1.3d    | Dataframes von 1.3 zusammenführen                             | ‍✅ Fertig   |
-| 1.4     | Move-Daten extrahieren (Stärke, Genauigkeit, Typ)             | 💻 In Bearbeitung          |
-| 1.5     | Encounter-Tabellen extrahieren (wo, welches Pokémon, wie oft) | ⏳ Offen            |
-| 1.6     | Rohdaten als CSV speichern                                    | ⏳ Offen            |
+| 1.4     | Move-Daten extrahieren (Stärke, Genauigkeit, Typ)             | ✅ Fertig         |
+| 1.5     | Rohdaten als CSV speichern                                    | ✅ Fertig            |
 
 ### Phase 2 – Bereinigung 🧹
 **Ziel:** Daten konsistent, vollständig und analysierbar machen
