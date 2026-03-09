@@ -66,15 +66,17 @@ Pokemon_Firered_Analysis/
 ### Phase 1 – Extraktion 📦
 **Ziel:** Rohdaten aus der ROM in nutzbare Formate überführen
 
-| Schritt | Aufgabe                                                    | Tool | Status               |
-|---------|------------------------------------------------------------|---|----------------------|
-| 1.1     | Projektumgebung einrichten (Python, Jupyter, venv)         | `pip`, `conda` | ✅ Fertig             |
-| 1.2     | ROM-Struktur verstehen (Hex-Offsets, Datenblöcke)          | Dokumentation / PokeMap | ✅ Fertig             |
-| 1.3a    | Pokémon-Namen extrahieren                                  | `Python struct` / `pokemontools` | ✅ Fertig             |
-| 1.3b    | Pokémon-Basiswerte extrahieren (HP, ATK, DEF, …)           | `Python struct` / `pokemontools` | 👨‍💻 In Bearbeitung |
-| 1.4     | Move-Daten extrahieren (Stärke, Genauigkeit, Typ)          | `Python struct` | ⏳ Offen              |
-| 1.5     | Encounter-Tabellen extrahieren (wo, welches Pokémon, wie oft) | `Python struct` | ⏳ Offen              |
-| 1.6     | Rohdaten als CSV speichern                                 | `pandas` | ⏳ Offen              |
+| Schritt | Aufgabe                                                       | Tool                             | Status             |
+|---------|---------------------------------------------------------------|----------------------------------|--------------------|
+| 1.1     | Projektumgebung einrichten (Python, Jupyter, venv)            | `pip`, `conda`                   | ✅ Fertig           |
+| 1.2     | ROM-Struktur verstehen (Hex-Offsets, Datenblöcke)             | Dokumentation / PokeMap          | ✅ Fertig           |
+| 1.3a    | Pokémon-Namen extrahieren                                     | `Python struct` / `pokemontools` | ✅ Fertig           |
+| 1.3b    | Pokémon-Basiswerte extrahieren (HP, ATK, DEF, …)              | `Python struct` / `pokemontools` | ✅ Fertig  |
+| 1.3c    | Pokémon-Typen extrahieren                                     | Python struct` / `pokemontools   | ‍✅ Fertig |
+| 1.3d    | Dataframes von 1.3 zusammenführen                             | xxx                              | ‍✅ Fertig   |
+| 1.4     | Move-Daten extrahieren (Stärke, Genauigkeit, Typ)             | `Python struct`                  | 💻 In Bearbeitung          |
+| 1.5     | Encounter-Tabellen extrahieren (wo, welches Pokémon, wie oft) | `Python struct`                  | ⏳ Offen            |
+| 1.6     | Rohdaten als CSV speichern                                    | `pandas`                         | ⏳ Offen            |
 
 ### Phase 2 – Bereinigung 🧹
 **Ziel:** Daten konsistent, vollständig und analysierbar machen
