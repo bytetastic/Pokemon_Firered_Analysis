@@ -81,12 +81,11 @@ Pokemon_Firered_Analysis/
 **Ziel:** Daten konsistent, vollständig und analysierbar machen
 
 | Schritt | Aufgabe | Status |
-|---|---|---|
-| 2.1 | Fehlende oder fehlerhafte Werte identifizieren | ⏳ Offen |
-| 2.2 | Datentypen korrigieren (z.B. Typ-IDs → Typnamen) | ⏳ Offen |
-| 2.3 | Duplikate entfernen | ⏳ Offen |
-| 2.4 | Tabellen sinnvoll verknüpfen (z.B. Pokémon ↔ Moves ↔ Encounters) | ⏳ Offen |
-| 2.5 | Bereinigtes Dataset als neues CSV abspeichern | ⏳ Offen |
+|---------|---|---|
+| 2.1     | Fehlende oder fehlerhafte Werte identifizieren | ✅ Fertig  |
+| 2.2     | Datentypen korrigieren (z.B. Typ-IDs → Typnamen) | ✅ Fertig  |
+| 2.3     | Duplikate entfernen | ✅ Fertig |
+| 2.4     | Bereinigtes Dataset als neues CSV abspeichern | ✅ Fertig  |
 
 ### Phase 3 – Analyse 🔍
 **Ziel:** Muster, Zusammenhänge und Auffälligkeiten finden
