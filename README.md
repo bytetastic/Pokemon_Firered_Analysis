@@ -118,29 +118,6 @@ Pokemon_Firered_Analysis/
 |---|------------------------------------------|---|
 | 5.1 | Kernaussagen formulieren: „Was wurde herausgefunden?" | ⏳ Offen |
 
----
-
-## 📅 Projektzeitplan
-
-```mermaid
-gantt
-    title Feuerrot – Projektzeitplan
-    dateFormat  YYYY-MM-DD
-    section Phase 1 📦 Extraktion
-    Phase 1 – Extraktion     :done,    p1, 2026-03-05, 5d
-
-    section Phase 2 🧹 Bereinigung
-    Phase 2 – Bereinigung    :         p2, 2026-03-10, 5d
-
-    section Phase 3 🔍 Analyse
-    Phase 3 – Analyse        :         p3, 2026-03-15, 5d
-
-    section Phase 4 📊 Visualisierung
-    Phase 4 – Visualisierung :         p4, 2026-03-20, 5d
-
-    section Phase 5 👨‍💻 Präsentation
-    Phase 5 – Präsentation   :         p5, 2026-03-25, 4d
-```
 
 ---
 
