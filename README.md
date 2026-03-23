@@ -74,20 +74,18 @@ Pokemon_Firered_Analysis/
 | 1.3b    | Pokémon-Basiswerte extrahieren (HP, ATK, DEF, …)              | ✅ Fertig  |
 | 1.3c    | Pokémon-Typen extrahieren                                     | ‍✅ Fertig |
 | 1.3d    | Dataframes von 1.3 zusammenführen                             | ‍✅ Fertig   |
-| 1.4     | Move-Daten extrahieren (Stärke, Genauigkeit, Typ)             | 💻 In Bearbeitung          |
-| 1.5     | Encounter-Tabellen extrahieren (wo, welches Pokémon, wie oft) | ⏳ Offen            |
-| 1.6     | Rohdaten als CSV speichern                                    | ⏳ Offen            |
+| 1.4     | Move-Daten extrahieren (Stärke, Genauigkeit, Typ)             | ✅ Fertig         |
+| 1.5     | Rohdaten als CSV speichern                                    | ✅ Fertig            |
 
 ### Phase 2 – Bereinigung 🧹
 **Ziel:** Daten konsistent, vollständig und analysierbar machen
 
 | Schritt | Aufgabe | Status |
-|---|---|---|
-| 2.1 | Fehlende oder fehlerhafte Werte identifizieren | ⏳ Offen |
-| 2.2 | Datentypen korrigieren (z.B. Typ-IDs → Typnamen) | ⏳ Offen |
-| 2.3 | Duplikate entfernen | ⏳ Offen |
-| 2.4 | Tabellen sinnvoll verknüpfen (z.B. Pokémon ↔ Moves ↔ Encounters) | ⏳ Offen |
-| 2.5 | Bereinigtes Dataset als neues CSV abspeichern | ⏳ Offen |
+|---------|---|---|
+| 2.1     | Fehlende oder fehlerhafte Werte identifizieren | ✅ Fertig  |
+| 2.2     | Datentypen korrigieren (z.B. Typ-IDs → Typnamen) | ✅ Fertig  |
+| 2.3     | Duplikate entfernen | ✅ Fertig |
+| 2.4     | Bereinigtes Dataset als neues CSV abspeichern | ✅ Fertig  |
 
 ### Phase 3 – Analyse 🔍
 **Ziel:** Muster, Zusammenhänge und Auffälligkeiten finden
