@@ -37,6 +37,7 @@ Pokemon_Firered_Analysis/
 ├── data/                  # Extrahierte Rohdaten (CSV) – nicht im Git!
 ├── notebooks/             # Jupyter Notebooks
 │   └── 01_extraktion.ipynb
+│   └── 02_bereinigung.ipynb
 ├── visualizations/        # Exportierte Grafiken & Charts
 ├── requirements.txt       # Python-Abhängigkeiten
 └── README.md
