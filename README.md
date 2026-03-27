@@ -96,8 +96,8 @@ Pokemon_Firered_Analysis/
 | 3.1 | Typverteilung – Welche Typen dominieren? Gibt es Lücken? | ⏳ Offen |
 | 3.2 | Stärke-Ranking – Welche Pokémon haben die höchsten Gesamtwerte? | ⏳ Offen |
 | 3.3 | Stat-Korrelation – Korrelieren z.B. Angriff und Speed? | ⏳ Offen |
-| 3.4 | Encounter-Analyse – Sind seltene Pokémon wirklich selten? | ⏳ Offen |
-| 3.5 | Typen-Matchup-Matrix – Welcher Typ ist am stärksten / schwächsten? | ⏳ Offen |
+| 3.4 | Move-Typ-Verteilung – Welcher Typ hat die meisten Moves? | ⏳ Offen |
+| 3.5 | Durchschnittliche Move-Stärke pro Typ – Welcher Typ hat die stärksten Attacken? | ⏳ Offen |
 | 3.6 | Balancing-Check – Ist das Spiel fair designt? | ⏳ Offen |
 
 ### Phase 4 – Visualisierung 📊
