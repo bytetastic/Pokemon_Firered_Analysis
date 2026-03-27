@@ -38,6 +38,7 @@ Pokemon_Firered_Analysis/
 ├── notebooks/             # Jupyter Notebooks
 │   └── 01_extraktion.ipynb
 │   └── 02_bereinigung.ipynb
+│   └── 03_analyse.ipynb
 ├── visualizations/        # Exportierte Grafiken & Charts
 ├── requirements.txt       # Python-Abhängigkeiten
 └── README.md
