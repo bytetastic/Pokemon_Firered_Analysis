@@ -93,7 +93,7 @@ Pokemon_Firered_Analysis/
 
 | Schritt | Fragestellung | Status |
 |---|---|---|
-| 3.1 | Typverteilung – Welche Typen dominieren? Gibt es Lücken? | ⏳ Offen |
+| 3.1 | Typverteilung – Welche Typen dominieren? Gibt es Lücken? | ✅ Fertig |
 | 3.2 | Stärke-Ranking – Welche Pokémon haben die höchsten Gesamtwerte? | ⏳ Offen |
 | 3.3 | Stat-Korrelation – Korrelieren z.B. Angriff und Speed? | ⏳ Offen |
 | 3.4 | Move-Typ-Verteilung – Welcher Typ hat die meisten Moves? | ⏳ Offen |
